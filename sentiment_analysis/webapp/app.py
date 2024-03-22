@@ -16,7 +16,7 @@ def prediction():
     
     data_point = [input_text]
 
-    model = joblib.load("best_models/naive_bayes.pkl")
+    model = joblib.load("best_rf_model.pkl")
 
     prediction = model.predict(data_point)
 
